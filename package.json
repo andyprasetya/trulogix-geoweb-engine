@@ -1,0 +1,47 @@
+{
+  "name": "trulogix-geoweb-engine",
+  "version": "1.0.0",
+  "description": "TruLogix GeoWeb Engine is a full-fledged, Express-based JSON/GeoJSON datasource, and a simple webmap application.",
+  "main": "app.js",
+  "scripts": {
+    "test": "trulogix_test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyprasetya/trulogix-geoweb-engine.git"
+  },
+  "keywords": [
+    "trulogix",
+    "express",
+    "pg",
+    "dbgeo",
+    "oracledb",
+    "mysql",
+    "crypto-toolkit",
+    "moment",
+    "moment-timezone",
+    "formidable",
+    "jsonwebtoken",
+    "pg-promise",
+    "util"
+  ],
+  "author": "andyprasetya",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/andyprasetya/trulogix-geoweb-engine/issues"
+  },
+  "homepage": "https://github.com/andyprasetya/trulogix-geoweb-engine#readme",
+  "dependencies": {
+    "crypto-toolkit": "^1.1.0",
+    "express": "^4.16.1",
+    "formidable": "^1.1.1",
+    "jsonwebtoken": "^8.0.1",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13",
+    "mysql": "^2.14.1",
+    "oracledb": "^1.13.1",
+    "pg": "^7.3.0",
+    "pg-promise": "^6.10.2",
+    "util": "^0.10.3"
+  }
+}
