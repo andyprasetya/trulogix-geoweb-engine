@@ -12,6 +12,7 @@
   },
   "keywords": [
     "trulogix",
+    "lodash",
     "express",
     "pg",
     "dbgeo",
@@ -22,6 +23,8 @@
     "moment-timezone",
     "formidable",
     "jsonwebtoken",
+    "passport",
+    "passport-jwt",
     "pg-promise",
     "util"
   ],
