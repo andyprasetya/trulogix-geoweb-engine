@@ -25,6 +25,7 @@
     "jsonwebtoken",
     "passport",
     "passport-jwt",
+    "pg-pool",
     "pg-promise",
     "util",
     "cors"
@@ -49,6 +50,7 @@
     "passport": "^0.4.0",
     "passport-jwt": "^3.0.0",
     "pg": "^7.3.0",
+    "pg-pool": "^2.0.3",
     "pg-promise": "^6.10.2",
     "util": "^0.10.3"
   }
