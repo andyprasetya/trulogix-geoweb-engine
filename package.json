@@ -4,7 +4,8 @@
   "description": "TruLogix GeoWeb Engine is a full-fledged, Express-based JSON/GeoJSON datasource, and a simple webmap application.",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "devstart": "nodemon app.js"
   },
   "repository": {
     "type": "git",
