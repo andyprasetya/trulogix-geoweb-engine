@@ -4,8 +4,7 @@
   "description": "TruLogix GeoWeb Engine is a full-fledged, Express-based JSON/GeoJSON datasource, and a simple webmap application.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "devstart": "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +15,7 @@
     "lodash",
     "express",
     "express-promise-router",
+    "asyncawait",
     "pg",
     "dbgeo",
     "oracledb",
@@ -30,6 +30,7 @@
     "pg-pool",
     "pg-promise",
     "util",
+    "socket.io",
     "cors"
   ],
   "author": "andyprasetya",
@@ -39,6 +40,7 @@
   },
   "homepage": "https://github.com/andyprasetya/trulogix-geoweb-engine#readme",
   "dependencies": {
+    "asyncawait": "^1.0.6",
     "cors": "^2.8.4",
     "crypto-toolkit": "^1.1.0",
     "express": "^4.16.1",
@@ -55,6 +57,7 @@
     "pg": "^7.3.0",
     "pg-pool": "^2.0.3",
     "pg-promise": "^6.10.2",
+    "socket.io": "^2.0.3",
     "util": "^0.10.3"
   }
 }
